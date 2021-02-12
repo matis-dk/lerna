@@ -17,3 +17,5 @@ export function logPretty(msg: string) {
   const { unicorn, fire } = emojis;
   console.log(`${unicorn} LOG: ${msg} ${fire}`);
 }
+
+log("asdasdas");

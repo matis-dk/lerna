@@ -2,9 +2,10 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-// import {} from "@reload-lern/logger";
+import { log, logPretty } from "@reload-lerna/logger";
 
 function App() {
+  logPretty("Hey from App");
   return (
     <div className="App">
       <header className="App-header">
