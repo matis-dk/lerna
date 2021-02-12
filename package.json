@@ -1,7 +1,16 @@
 {
   "name": "root",
   "private": true,
+  "version": "1.0.0",
+  "repository": "git@github.com:matis-dk/lerna.git",
+  "author": "Lasse Borly <lasseborly@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
-  }
+    "lerna": "^3.22.1",
+    "postcss": "^8.2.1"
+  },
+  "dependencies": {}
 }

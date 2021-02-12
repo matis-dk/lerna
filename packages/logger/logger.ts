@@ -1,6 +1,6 @@
 export function log(msg: string) {
   if (typeof msg === "string") {
-    console.log(`LOG: ${msg}`);
+    console.info(`LOG: ${msg}`);
   }
 
   console.log({

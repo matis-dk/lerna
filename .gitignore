@@ -1,1 +1,8 @@
 node_modules
+.parcel-cache
+dist
+yarn-error.log
+functions
+dist
+build
+.cache
