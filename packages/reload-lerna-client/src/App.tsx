@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-import { log, logPretty } from "@reload-lerna/logger/logger";
+import { log, logPretty } from "reload-lerna-logger/logger";
 
 function App() {
   logPretty("Hey from App");

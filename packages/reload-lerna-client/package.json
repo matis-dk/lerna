@@ -1,10 +1,11 @@
 {
-  "name": "@reload-lerna/client",
+  "name": "reload-lerna-client",
   "version": "0.1.0",
   "source": "index.html",
   "main": "dist/index.html",
+  "private": true,
   "dependencies": {
-    "@reload-lerna/logger": "^1.0.0",
+    "reload-lerna-logger": "1.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -18,6 +19,11 @@
     "react-scripts": "4.0.2",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
+  },
+  "workspaces": {
+    "nohoist": [
+      "reload-lerna-logger"
+    ]
   },
   "scripts": {
     "start": "react-scripts start",
