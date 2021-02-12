@@ -1,6 +1,8 @@
 {
   "name": "@reload-lerna/client",
   "version": "0.1.0",
+  "source": "index.html",
+  "main": "dist/index.html",
   "dependencies": {
     "@reload-lerna/logger": "^1.0.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -10,6 +12,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "parcel": "^1.12.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
@@ -18,9 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "parcel build index.html",
+    "watch": "parcel watch .",
+    "serve": "parcel serve index.html"
   },
   "eslintConfig": {
     "extends": [
