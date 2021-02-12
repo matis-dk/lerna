@@ -1,5 +1,5 @@
 {
-  "name": "helper",
+  "name": "@reload-lerna/helper",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT"
